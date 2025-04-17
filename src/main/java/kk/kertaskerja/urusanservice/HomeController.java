@@ -18,7 +18,7 @@ public class HomeController {
     @GetMapping("/")
     public HealthStatus status() {
         return new HealthStatus(
-                kertasKerjaProperties.getStatusMessage(),
+                kertasKerjaProperties.getStatus(),
                 Instant.now()
         );
     }

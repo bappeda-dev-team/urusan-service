@@ -4,8 +4,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(prefix = "kertaskerja")
 public class KertasKerjaProperties {
-    private String statusMessage;
+    private String status;
 
-    public String getStatusMessage() { return statusMessage; }
-    public void setStatusMessage(String statusMessage) { this.statusMessage = statusMessage; }
+    public String getStatus() { return status; }
+    public void setStatus(String status) { this.status = status; }
 }
