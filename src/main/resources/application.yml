@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: urusan-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/kertaskerja_urusan
+    username: user
+    password: password
+kertaskerja:
+  status-message: URUSA SERVICE IS UP
+server:
+  port: 9002
+  tomcat:
+    connection-timeout: 2s
+    keep-alive-timeout: 15s
+    threads:
+      max: 50
+      min-spare: 5
+  shutdown: graceful
