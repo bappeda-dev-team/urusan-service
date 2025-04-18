@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: urusan-service
+  labels:
+    app: urusan-service
+spec:
+  type: ClusterIP
+  selector:
+    app: urusan-service
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 9002
