@@ -1,4 +1,4 @@
-package kk.kertaskerja.urusanservice;
+package kk.kertaskerja.urusanservice.web;
 
 import kk.kertaskerja.urusanservice.common.HealthStatus;
 import kk.kertaskerja.urusanservice.config.KertasKerjaProperties;
